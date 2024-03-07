@@ -23,8 +23,11 @@ body{
 }
 
 .font-generic{
-color: var(--grey);
 font-family: "Roboto", sans-serif;;
+}
+
+.font-red{
+    color: var(--grey);
 }
 
 .nav-item{
@@ -63,7 +66,7 @@ font-family: "Roboto", sans-serif;;
 }
 
 .header-custom{
-    height: calc(100vh - 95px);
+    min-height: calc(100vh - 95px);
     margin-top: 95px;
 }
 .header-img{
@@ -81,4 +84,11 @@ font-family: "Roboto", sans-serif;;
 .header-row{
     width: 100;
 
+}
+
+.shadow-hover{
+    transition: 0.5s;
+}
+.shadow-hover:hover{
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.171);
 }
